@@ -1,0 +1,768 @@
+<!DOCTYPE html><html lang="en"><head>
+            <title data-id="th-modified">Crave JAr</title>
+            
+          <meta property="og:title" content="Crave JAr" data-id="th-modified"><meta name="description" content="code" data-id="th-modified"><meta property="og:description" content="code" data-id="th-modified"><meta property="og:image" content="https://tiiny.host/assets/logo-purple-bg.png" data-id="th-modified"><meta property="og:image:width" content="1501" data-id="th-modified"><meta property="og:image:height" content="1501" data-id="th-modified"><meta property="og:image:type" content="image/png" data-id="th-modified"><meta property="og:url" content="https://black-fernandina-74.tiiny.site/" data-id="th-modified"><meta property="og:type" content="website" data-id="th-modified"><script defer="" data-domain="black-fernandina-74.tiiny.site" src="https://analytics.tiiny.site/js/plausible.js"></script><script type="text/javascript" src="https://tiiny.host/ad-script.js"></script></head>
+          <body><div style="position: fixed !important; bottom: 0% !important; left: 0% !important; right: 0% !important; width: 100% !important; height: 55px !important; z-index: 9999 !important;"><a href="https://tiiny.host?ref=free-site">
+    <div style="padding: 10px !important; height: 55px; text-align: center; background: rgb(220,137,232) !important; background: linear-gradient(141deg, rgba(220,137,232,1) 0%, rgba(144,64,204,1) 100%) !important;">
+      <img style="height: 35px !important; width: auto !important;" src="https://tiiny.host/assets/img/ad.png" alt="tiiny.host" class="">
+    </div>
+  </a></div>
+            
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CraveJar — Dip. Bite. Crave. | Hyderabad</title>
+<meta name="description" content="Handcrafted cookies, stuffed cookies &amp; brownies delivered fresh in Hyderabad. FSSAI Certified. Pre-order by 9 PM, delivered next day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Jost:wght@300;400;500;600&amp;family=Great+Vibes&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1C0A00;--choc:#3D1A08;--mahogany:#6B2D0F;
+  --caramel:#C8780A;--gold:#D4A827;
+  --cream:#FBF5E9;--warm:#FFF8EE;--sand:#EDD9B8;--mist:#F5ECD8;
+  --green:#4A7C59;--green-light:#E8F0EB;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Jost',sans-serif;background:var(--cream);color:var(--ink);overflow-x:hidden;}
+::-webkit-scrollbar{width:5px;}
+::-webkit-scrollbar-thumb{background:var(--caramel);border-radius:3px;}
+body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23g)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:9999;opacity:.45;}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:500;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;height:68px;background:rgba(251,245,233,.94);backdrop-filter:blur(18px);border-bottom:1px solid rgba(61,26,8,.07);transition:box-shadow .3s;}
+nav.scrolled{box-shadow:0 4px 28px rgba(61,26,8,.1);}
+.nav-brand{font-family:'Great Vibes',cursive;font-size:2rem;color:var(--choc);text-decoration:none;}
+.nav-links{display:flex;align-items:center;gap:32px;list-style:none;}
+.nav-links a{text-decoration:none;color:var(--choc);font-size:.76rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;opacity:.6;transition:opacity .2s;cursor:pointer;}
+.nav-links a:hover{opacity:1;}
+.nav-cta{background:var(--choc)!important;color:var(--cream)!important;opacity:1!important;padding:9px 24px;border-radius:100px;font-size:.73rem!important;}
+.nav-cta:hover{background:var(--mahogany)!important;}
+.ham{display:none;flex-direction:column;gap:5px;cursor:pointer;}
+.ham span{width:22px;height:2px;background:var(--choc);border-radius:2px;transition:.3s;}
+
+/* PAGES */
+.page{display:none;min-height:100vh;padding-top:68px;}
+.page.active{display:block;}
+
+/* HERO */
+.hero{min-height:calc(100vh - 68px);display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:50px 5vw 50px;gap:40px;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;right:-150px;top:-150px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(200,120,10,.1) 0%,transparent 65%);pointer-events:none;}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--sand);color:var(--mahogany);font-size:.68rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;padding:7px 16px;border-radius:100px;margin-bottom:24px;animation:up .6s ease both;}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.8rem,5vw,5.4rem);line-height:1.05;font-weight:700;color:var(--choc);animation:up .65s .08s ease both;}
+.hero h1 em{font-style:italic;color:var(--caramel);}
+.hero-sub{margin-top:20px;font-size:.95rem;line-height:1.78;color:var(--mahogany);opacity:.8;max-width:420px;animation:up .65s .16s ease both;}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px;animation:up .65s .24s ease both;}
+.hero-trust{display:flex;gap:22px;flex-wrap:wrap;margin-top:38px;animation:up .65s .32s ease both;}
+.tp{display:flex;align-items:center;gap:7px;font-size:.73rem;font-weight:500;color:var(--mahogany);opacity:.75;}
+.tp .dot{width:26px;height:26px;border-radius:50%;background:var(--sand);display:flex;align-items:center;justify-content:center;font-size:.8rem;}
+
+/* HERO VISUAL */
+.hero-right{position:relative;display:flex;align-items:center;justify-content:center;animation:fadein .9s .2s ease both;}
+.hero-img{width:360px;height:440px;border-radius:190px 190px 150px 150px;overflow:hidden;box-shadow:0 36px 80px rgba(61,26,8,.26);position:relative;z-index:2;}
+.hero-img img{width:100%;height:100%;object-fit:cover;object-position:center top;}
+.h-chip{position:absolute;background:var(--warm);border-radius:16px;padding:12px 16px;box-shadow:0 14px 44px rgba(61,26,8,.16);z-index:3;}
+.h-chip-tl{top:28px;left:-18px;animation:floatA 3.5s ease-in-out infinite;}
+.h-chip-br{bottom:44px;right:-18px;animation:floatB 3.5s ease-in-out infinite;}
+.chip-label{font-size:.62rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--caramel);margin-bottom:3px;}
+.chip-value{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:700;color:var(--choc);}
+
+@keyframes floatA{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes floatB{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+@keyframes up{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;gap:7px;padding:14px 30px;border-radius:100px;font-family:'Jost',sans-serif;font-size:.84rem;font-weight:600;letter-spacing:.05em;text-decoration:none;cursor:pointer;border:none;transition:transform .2s,box-shadow .2s,background .2s;}
+.btn:hover{transform:translateY(-2px);}
+.btn-dark{background:var(--choc);color:var(--cream);box-shadow:0 8px 26px rgba(61,26,8,.26);}
+.btn-dark:hover{background:var(--mahogany);box-shadow:0 12px 34px rgba(61,26,8,.36);}
+.btn-outline{background:transparent;color:var(--choc);border:1.5px solid rgba(61,26,8,.22);}
+.btn-outline:hover{border-color:var(--choc);background:var(--mist);}
+.btn-gold{background:var(--gold);color:var(--ink);box-shadow:0 8px 26px rgba(212,168,39,.32);}
+.btn-gold:hover{background:#e0b52a;box-shadow:0 12px 34px rgba(212,168,39,.48);}
+.btn-green{background:var(--green);color:#fff;box-shadow:0 8px 22px rgba(74,124,89,.28);}
+.btn-green:hover{background:#3d6a4a;}
+
+/* MARQUEE */
+.mq-wrap{background:var(--choc);padding:12px 0;overflow:hidden;}
+.mq-track{display:flex;width:max-content;animation:mq 22s linear infinite;}
+.mq-track:hover{animation-play-state:paused;}
+.mq-item{display:flex;align-items:center;gap:12px;padding:0 26px;font-size:.7rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--cream);white-space:nowrap;}
+.mq-sep{color:var(--gold);font-size:.38rem;}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* SECTIONS */
+section{padding:84px 5vw;}
+.s-tag{display:inline-block;font-size:.67rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--caramel);margin-bottom:12px;}
+.s-title{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,3.6vw,3.2rem);font-weight:700;line-height:1.12;color:var(--choc);}
+.s-sub{font-size:.92rem;line-height:1.76;color:var(--mahogany);opacity:.78;max-width:490px;margin-top:10px;}
+.ch{text-align:center;}.ch .s-sub{margin:10px auto 0;}
+
+/* HOW */
+.how-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:50px;}
+.how-card{background:var(--warm);border-radius:22px;padding:28px 22px;position:relative;overflow:hidden;transition:transform .3s,box-shadow .3s;}
+.how-card::before{content:attr(data-n);position:absolute;right:14px;top:6px;font-family:'Cormorant Garamond',serif;font-size:4.5rem;font-weight:700;color:var(--sand);line-height:1;}
+.how-card:hover{transform:translateY(-5px);box-shadow:0 18px 54px rgba(61,26,8,.11);}
+.how-icon{font-size:1.8rem;margin-bottom:14px;display:block;}
+.how-title{font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:700;margin-bottom:7px;color:var(--choc);}
+.how-desc{font-size:.8rem;line-height:1.65;color:var(--mahogany);opacity:.8;}
+
+/* ZONES */
+.zones-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:48px;}
+.zone-card{border-radius:20px;padding:30px;text-align:center;transition:transform .3s;}
+.zone-card:hover{transform:translateY(-5px);}
+.za{background:var(--choc);color:var(--cream);}
+.zb{background:var(--sand);}
+.zc{background:var(--mist);border:2px dashed var(--sand);}
+.zone-icon{font-size:2.2rem;margin-bottom:14px;display:block;}
+.zone-title{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:700;margin-bottom:7px;}
+.za .zone-title{color:var(--gold);}
+.zb .zone-title,.zc .zone-title{color:var(--choc);}
+.zone-desc{font-size:.8rem;line-height:1.65;opacity:.78;}
+.za .zone-desc{color:var(--cream);}
+.zone-tag{display:inline-block;margin-top:14px;padding:5px 16px;border-radius:100px;font-size:.7rem;font-weight:600;}
+.za .zone-tag{background:rgba(255,255,255,.13);color:var(--cream);}
+.zb .zone-tag{background:var(--choc);color:var(--cream);}
+.zc .zone-tag{background:var(--sand);color:var(--mahogany);}
+
+/* ITEMS */
+.items-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:26px;}
+.item-card{background:var(--warm);border-radius:22px;overflow:hidden;transition:transform .3s,box-shadow .3s;cursor:pointer;}
+.item-card:hover{transform:translateY(-7px);box-shadow:0 26px 66px rgba(61,26,8,.15);}
+.item-img{height:195px;position:relative;overflow:hidden;background:var(--sand);display:flex;align-items:center;justify-content:center;font-size:3.5rem;}
+.item-img img{width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .4s;}
+.item-card:hover .item-img img{transform:scale(1.05);}
+.itag{position:absolute;top:10px;left:10px;padding:4px 11px;border-radius:100px;font-size:.63rem;font-weight:600;letter-spacing:.09em;text-transform:uppercase;}
+.itag-dark{background:var(--choc);color:var(--cream);}
+.itag-gold{background:var(--gold);color:var(--ink);}
+.itag-green{background:var(--green);color:#fff;}
+.item-body{padding:20px 22px 24px;}
+.item-name{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:700;color:var(--choc);margin-bottom:5px;}
+.item-desc{font-size:.78rem;line-height:1.65;color:var(--mahogany);opacity:.75;margin-bottom:16px;}
+.item-footer{display:flex;align-items:center;justify-content:space-between;}
+.item-price{font-family:'Cormorant Garamond',serif;font-size:1.42rem;font-weight:700;color:var(--choc);}
+.oibtn{background:var(--choc);color:var(--cream);border:none;border-radius:100px;padding:8px 18px;font-family:'Jost',sans-serif;font-size:.73rem;font-weight:600;cursor:pointer;transition:.2s;}
+.oibtn:hover{background:var(--mahogany);transform:scale(1.04);}
+.oibtn-g{background:var(--green);}
+.oibtn-g:hover{background:#3d6a4a;}
+.hbadge{display:inline-flex;align-items:center;gap:5px;background:var(--green-light);color:var(--green);border-radius:100px;padding:3px 10px;font-size:.66rem;font-weight:600;margin-bottom:7px;}
+
+/* TESTIMONIALS */
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:48px;}
+.testi-card{background:var(--warm);border-radius:20px;padding:26px;position:relative;transition:transform .3s;}
+.testi-card:hover{transform:translateY(-4px);}
+.testi-card::before{content:'"';position:absolute;top:14px;right:20px;font-family:'Cormorant Garamond',serif;font-size:4.5rem;color:var(--sand);line-height:1;}
+.stars{color:var(--gold);font-size:.82rem;letter-spacing:2px;margin-bottom:12px;}
+.testi-text{font-size:.84rem;line-height:1.72;color:var(--mahogany);opacity:.85;margin-bottom:20px;}
+.testi-author{display:flex;align-items:center;gap:9px;}
+.testi-av{width:38px;height:38px;border-radius:50%;background:var(--sand);display:flex;align-items:center;justify-content:center;font-size:1rem;}
+.testi-name{font-weight:600;font-size:.86rem;color:var(--choc);}
+.testi-loc{font-size:.7rem;color:var(--mahogany);opacity:.6;}
+
+/* TRUST BAR */
+.trust-bar{background:var(--sand);padding:26px 5vw;display:flex;align-items:center;justify-content:center;gap:44px;flex-wrap:wrap;}
+.tb-item{display:flex;align-items:center;gap:9px;font-size:.78rem;font-weight:500;color:var(--choc);}
+
+/* MENU PAGE */
+.menu-hero{background:var(--choc);padding:64px 5vw 50px;text-align:center;position:relative;overflow:hidden;}
+.menu-hero::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:550px;height:550px;border-radius:50%;background:radial-gradient(circle,rgba(200,120,10,.18) 0%,transparent 65%);pointer-events:none;}
+.menu-hero .s-tag{color:var(--gold);}
+.menu-hero .s-title{color:var(--cream);margin:0 auto;}
+.menu-hero .s-sub{color:rgba(251,245,233,.62);margin:10px auto 0;}
+.menu-tabs{display:flex;justify-content:center;gap:8px;padding:28px 5vw 0;background:var(--choc);flex-wrap:wrap;}
+.tab-btn{padding:9px 20px;border-radius:100px;font-family:'Jost',sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;border:1.5px solid rgba(255,255,255,.18);color:rgba(251,245,233,.55);background:transparent;transition:.25s;}
+.tab-btn:hover,.tab-btn.act{background:var(--gold);color:var(--ink);border-color:var(--gold);}
+.tab-btn.act-g{background:var(--green);color:#fff;border-color:var(--green);}
+.menu-body{padding:50px 5vw 76px;}
+.msec{display:none;}
+.msec.active{display:block;}
+.msec-title{font-family:'Cormorant Garamond',serif;font-size:1.9rem;font-weight:700;color:var(--choc);margin-bottom:6px;}
+.msec-sub{font-size:.85rem;color:var(--mahogany);opacity:.72;margin-bottom:36px;}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:68px;align-items:center;padding:76px 5vw;}
+.about-img-wrap{position:relative;}
+.about-img{width:100%;height:460px;border-radius:22px 22px 110px 22px;overflow:hidden;box-shadow:0 28px 74px rgba(61,26,8,.2);}
+.about-img img{width:100%;height:100%;object-fit:cover;}
+.about-float{position:absolute;bottom:-18px;right:-18px;background:var(--choc);color:var(--cream);border-radius:18px;padding:18px 22px;box-shadow:0 14px 46px rgba(61,26,8,.28);}
+.af-n{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:700;color:var(--gold);}
+.af-l{font-size:.72rem;opacity:.65;}
+.about-p{font-size:.9rem;line-height:1.82;color:var(--mahogany);opacity:.8;margin-bottom:14px;}
+.vals-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px;}
+.val-card{background:var(--warm);border-radius:16px;padding:22px;text-align:center;}
+.val-icon{font-size:1.8rem;margin-bottom:10px;display:block;}
+.val-title{font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-weight:700;margin-bottom:5px;color:var(--choc);}
+.val-desc{font-size:.76rem;line-height:1.6;color:var(--mahogany);opacity:.74;}
+
+/* CONTACT / ORDER */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:68px;align-items:start;padding:76px 5vw;}
+.clinks{display:flex;flex-direction:column;gap:16px;margin-top:28px;}
+.clink{display:flex;align-items:center;gap:12px;text-decoration:none;background:var(--warm);border-radius:13px;padding:15px 18px;transition:transform .2s,box-shadow .2s;}
+.clink:hover{transform:translateX(4px);box-shadow:0 7px 28px rgba(61,26,8,.09);}
+.clink-icon{width:42px;height:42px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0;}
+.clink-label{font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--caramel);margin-bottom:2px;}
+.clink-val{font-size:.88rem;font-weight:500;color:var(--choc);}
+.fssai-box{margin-top:24px;background:var(--mist);border-radius:13px;padding:16px 18px;display:flex;align-items:center;gap:10px;}
+.fssai-label{font-size:.66rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--caramel);}
+.fssai-num{font-size:.86rem;font-weight:600;color:var(--choc);letter-spacing:.06em;}
+.dzone-info{margin-top:24px;background:var(--mist);border-radius:13px;padding:18px 20px;}
+.dzone-info h4{font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-weight:700;color:var(--choc);margin-bottom:9px;}
+.dzone-info p{font-size:.78rem;line-height:2.1;color:var(--mahogany);opacity:.82;}
+
+/* FORM */
+.order-form{background:var(--choc);border-radius:26px;padding:36px;}
+.form-title{font-family:'Cormorant Garamond',serif;font-size:1.75rem;font-weight:700;color:var(--cream);margin-bottom:5px;}
+.form-sub{font-size:.8rem;opacity:.58;margin-bottom:24px;line-height:1.6;color:var(--cream);}
+.pre-note{background:rgba(212,168,39,.13);border:1px solid rgba(212,168,39,.28);border-radius:10px;padding:11px 13px;font-size:.76rem;line-height:1.6;color:rgba(251,245,233,.7);margin-bottom:17px;}
+.pre-note strong{color:var(--gold);}
+.f-row{margin-bottom:16px;}
+.f-grid2{display:grid;grid-template-columns:1fr 1fr;gap:13px;}
+.f-label{display:block;font-size:.66rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:rgba(251,245,233,.48);margin-bottom:6px;}
+.f-input,.f-select,.f-textarea{width:100%;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:11px;padding:12px 15px;color:var(--cream);font-family:'Jost',sans-serif;font-size:.86rem;outline:none;transition:border-color .2s,background .2s;}
+.f-input::placeholder,.f-textarea::placeholder{color:rgba(251,245,233,.28);}
+.f-input:focus,.f-select:focus,.f-textarea:focus{border-color:var(--gold);background:rgba(255,255,255,.11);}
+.f-select option{background:var(--choc);}
+.f-textarea{resize:vertical;min-height:76px;}
+.submit-btn{width:100%;background:var(--gold);color:var(--ink);border:none;border-radius:100px;padding:16px;font-family:'Jost',sans-serif;font-size:.9rem;font-weight:700;letter-spacing:.05em;cursor:pointer;margin-top:5px;transition:background .2s,transform .15s,box-shadow .2s;box-shadow:0 8px 26px rgba(212,168,39,.38);}
+.submit-btn:hover{background:#e0b52a;transform:translateY(-2px);box-shadow:0 12px 34px rgba(212,168,39,.52);}
+
+/* MODAL */
+.modal-bg{position:fixed;inset:0;z-index:800;background:rgba(28,10,0,.68);backdrop-filter:blur(5px);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .3s;}
+.modal-bg.open{opacity:1;pointer-events:all;}
+.modal{background:var(--warm);border-radius:26px;padding:44px 36px;max-width:440px;width:90%;text-align:center;transform:scale(.94) translateY(18px);transition:transform .3s;}
+.modal-bg.open .modal{transform:scale(1) translateY(0);}
+.modal-emoji{font-size:3.2rem;display:block;margin-bottom:12px;}
+.modal h3{font-family:'Cormorant Garamond',serif;font-size:1.9rem;font-weight:700;color:var(--choc);margin-bottom:9px;}
+.modal p{font-size:.86rem;line-height:1.72;color:var(--mahogany);opacity:.8;margin-bottom:22px;}
+.modal-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;}
+.mclose{background:var(--sand);color:var(--choc);border:none;border-radius:100px;padding:11px 26px;font-family:'Jost',sans-serif;font-size:.82rem;font-weight:600;cursor:pointer;}
+
+/* WA FLOAT */
+.wa-float{position:fixed;bottom:26px;right:26px;z-index:600;width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.5rem;text-decoration:none;box-shadow:0 7px 26px rgba(37,211,102,.36);animation:wap 2.5s infinite;transition:transform .2s;}
+.wa-float:hover{transform:scale(1.1);}
+@keyframes wap{0%,100%{box-shadow:0 7px 26px rgba(37,211,102,.36)}50%{box-shadow:0 7px 42px rgba(37,211,102,.58)}}
+
+/* FOOTER */
+footer{background:var(--ink);color:var(--cream);padding:56px 5vw 26px;}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:44px;padding-bottom:44px;border-bottom:1px solid rgba(255,255,255,.07);margin-bottom:26px;}
+.f-brand-name{font-family:'Great Vibes',cursive;font-size:1.9rem;margin-bottom:9px;}
+.f-tagline{font-size:.76rem;opacity:.42;line-height:1.72;max-width:230px;margin-bottom:20px;}
+.f-socials{display:flex;gap:9px;}
+.f-soc{width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.07);display:flex;align-items:center;justify-content:center;font-size:.9rem;text-decoration:none;transition:.2s;}
+.f-soc:hover{background:var(--caramel);}
+.f-col h4{font-size:.66rem;letter-spacing:.15em;text-transform:uppercase;opacity:.38;margin-bottom:16px;font-weight:600;}
+.f-col ul{list-style:none;}
+.f-col li{margin-bottom:10px;}
+.f-col a{text-decoration:none;color:var(--cream);font-size:.83rem;opacity:.52;transition:opacity .2s;cursor:pointer;}
+.f-col a:hover{opacity:1;}
+.footer-bottom{display:flex;align-items:center;justify-content:space-between;font-size:.72rem;opacity:.32;flex-wrap:wrap;gap:7px;}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .55s ease,transform .55s ease;}
+.reveal.visible{opacity:1;transform:translateY(0);}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .nav-links{display:none;flex-direction:column;gap:0;position:fixed;top:68px;left:0;right:0;background:var(--cream);padding:18px 5vw 24px;border-bottom:1px solid var(--sand);box-shadow:0 7px 28px rgba(61,26,8,.09);}
+  .nav-links.open{display:flex;}
+  .nav-links li{padding:11px 0;border-bottom:1px solid var(--mist);}
+  .nav-links a{font-size:.88rem;}
+  .ham{display:flex;}
+  .hero{grid-template-columns:1fr;padding:40px 5vw;text-align:center;}
+  .hero-right{display:none;}
+  .hero-ctas,.hero-trust{justify-content:center;}
+  .hero-sub{margin:18px auto 0;}
+  .how-grid{grid-template-columns:1fr 1fr;}
+  .zones-grid,.testi-grid{grid-template-columns:1fr;}
+  .about-grid,.contact-grid{grid-template-columns:1fr;gap:36px;}
+  .about-img{height:300px;}
+  .vals-grid{grid-template-columns:1fr 1fr;}
+  .footer-grid{grid-template-columns:1fr 1fr;}
+  .f-grid2{grid-template-columns:1fr;}
+}
+@media(max-width:600px){
+  .how-grid,.vals-grid,.footer-grid{grid-template-columns:1fr;}
+  .items-grid{grid-template-columns:1fr;}
+  .trust-bar{gap:18px;}
+}
+</style>
+
+
+
+<nav id="nav" class="scrolled">
+  <a class="nav-brand" onclick="showPage('home')" style="cursor:pointer">CraveJar</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a onclick="showPage('home')">Home</a></li>
+    <li><a onclick="showPage('menu')" class="" >Menu</a></li>
+    <li><a onclick="showPage('about')" class=" " >About</a></li>
+    <li><a onclick="showPage('contact')">Contact</a></li>
+    <li><a onclick="goOrder()" class="nav-cta">Order Now</a></li>
+  </ul>
+  <div class="ham" id="ham" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ═══════ HOME ═══════ -->
+<div class="page" id="page-home">
+
+<section class="hero">
+  <div>
+    <span class="hero-eyebrow">🍪 Hyderabad's Home Bakery</span>
+    <h1 class="">Made fresh.<br>Delivered <em>warm.</em><br>Always crave-worthy.</h1>
+    <p class="hero-sub">Handcrafted cookies, gooey stuffed cookies &amp; fudgy brownies with our signature dipping sauce. Pre-order by 9 PM, delivered tomorrow.</p>
+    <div class="hero-ctas">
+      <button class="btn btn-dark" onclick="goOrder()">🛒 Pre-Order Now</button>
+      <button class="btn btn-outline" onclick="showPage('menu')">View Full Menu</button>
+    </div>
+    <div class="hero-trust">
+      <div class="tp"><div class="dot">✅</div>FSSAI Certified</div>
+      <div class="tp"><div class="dot">📦</div>Next-Day Delivery</div>
+      <div class="tp"><div class="dot">🍫</div>Fresh on Order</div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-img">
+      <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&amp;q=80" alt="CraveJar Cookies with dip">
+    </div>
+    <div class="h-chip h-chip-tl">
+      <div class="chip-label">Order before</div>
+      <div class="chip-value">9 PM tonight</div>
+    </div>
+    <div class="h-chip h-chip-br">
+      <div class="chip-label">Delivered</div>
+      <div class="chip-value">Tomorrow 🚀</div>
+    </div>
+  </div>
+</section>
+
+<div class="mq-wrap">
+  <div class="mq-track">
+    <div class="mq-item">Classic Choco Chip <span class="mq-sep">●</span></div>
+    <div class="mq-item">Nutella Stuffed Cookie <span class="mq-sep">●</span></div>
+    <div class="mq-item">Biscoff Stuffed Cookie <span class="mq-sep">●</span></div>
+    <div class="mq-item">Mini Brownies + Dip <span class="mq-sep">●</span></div>
+    <div class="mq-item">Combo Box <span class="mq-sep">●</span></div>
+    <div class="mq-item">FSSAI Certified <span class="mq-sep">●</span></div>
+    <div class="mq-item">Made Fresh on Order <span class="mq-sep">●</span></div>
+    <div class="mq-item">Classic Choco Chip <span class="mq-sep">●</span></div>
+    <div class="mq-item">Nutella Stuffed Cookie <span class="mq-sep">●</span></div>
+    <div class="mq-item">Biscoff Stuffed Cookie <span class="mq-sep">●</span></div>
+    <div class="mq-item">Mini Brownies + Dip <span class="mq-sep">●</span></div>
+    <div class="mq-item">Combo Box <span class="mq-sep">●</span></div>
+    <div class="mq-item">FSSAI Certified <span class="mq-sep">●</span></div>
+    <div class="mq-item">Made Fresh on Order <span class="mq-sep">●</span></div>
+  </div>
+</div>
+
+<section style="background:var(--mist);">
+  <span class="s-tag">How it works</span>
+  <h2 class="s-title">From our kitchen to<br>your door in 4 steps</h2>
+  <div class="how-grid">
+    <div class="how-card reveal" data-n="01"><span class="how-icon">📋</span><div class="how-title">Fill the form</div><p class="how-desc">Pick your items, share your address and any special notes. Takes 2 minutes.</p></div>
+    <div class="how-card reveal" data-n="02"><span class="how-icon">💬</span><div class="how-title">WhatsApp confirm</div><p class="how-desc">We confirm on WhatsApp within 15 mins and send you a UPI payment link.</p></div>
+    <div class="how-card reveal" data-n="03"><span class="how-icon">🧁</span><div class="how-title">Baked fresh</div><p class="how-desc">Your order is baked fresh next morning — never pre-baked, never frozen.</p></div>
+    <div class="how-card reveal" data-n="04"><span class="how-icon">🛵</span><div class="how-title">Delivered tomorrow</div><p class="how-desc">Packed in sealed kraft boxes and delivered to your door the next day.</p></div>
+  </div>
+</section>
+
+<section>
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:48px;flex-wrap:wrap;gap:14px;">
+    <div><span class="s-tag">Our Bestsellers</span><h2 class="s-title">Can't stop at one</h2></div>
+    <button class="btn btn-outline" onclick="showPage('menu')">Full Menu →</button>
+  </div>
+  <div class="items-grid">
+    <div class="item-card reveal" onclick="openItem('Classic Mini Cookies + Milk Choc Dip (12 mini) — ₹249')">
+      <div class="item-img"><img src="https://black-fernandina-74.tiiny.site/images/1778323864115-image-cefcfaaefd.png" alt="Classic Cookies" class=""><span class="itag itag-gold">⭐ Bestseller</span></div>
+      <div class="item-body">
+        <div class="item-name">Classic Mini Cookies + Milk Choc Dip</div>
+        <p class="item-desc">12 warm mini choco chip cookies with a cup of silky milk chocolate dipping sauce.</p>
+        <div class="item-footer"><span class="item-price">₹249</span><button class="oibtn">Order →</button></div>
+      </div>
+    </div>
+    <div class="item-card reveal" onclick="openItem('Nutella Stuffed Cookie (single) — ₹99')">
+      <div class="item-img"><img src="https://black-fernandina-74.tiiny.site/images/1778323880852-image-fcdfdbeebcbbaebae.png" alt="Stuffed Cookie" class=""><span class="itag itag-dark">🔥 Fan Fav</span></div>
+      <div class="item-body">
+        <div class="item-name">Nutella Stuffed Cookie</div>
+        <p class="item-desc">One giant cookie with a molten Nutella centre. Pull it apart and watch it flow.</p>
+        <div class="item-footer"><span class="item-price">₹99 each</span><button class="oibtn">Order →</button></div>
+      </div>
+    </div>
+    <div class="item-card reveal" onclick="openItem('Combo Box — Mini Cookies + Brownies + Dip — ₹349')">
+      <div class="item-img"><img src="https://black-fernandina-74.tiiny.site/images/1778323945405-image-faacccfbdbebdc.png" alt="Combo Box" class=""><span class="itag itag-gold">Best Value</span></div>
+      <div class="item-body">
+        <div class="item-name">Combo Box — Cookies + Brownies + Dip</div>
+        <p class="item-desc">Mini cookies + fudgy brownies + 2 dipping sauces in one box. The crowd pleaser.</p>
+        <div class="item-footer"><span class="item-price">₹349</span><button class="oibtn">Order →</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--warm);">
+  <div class="ch"><span class="s-tag">Delivery Info</span><h2 class="s-title">Pre-order by 9 PM,<br>delivered tomorrow</h2><p class="s-sub">We're based in Osman Nagar, Tellapur. Here's how delivery charges work.</p></div>
+  <div class="zones-grid">
+    <div class="zone-card za reveal"><span class="zone-icon">⚡</span><div class="zone-title">Within 10 km</div><p class="zone-desc">Osman Nagar, Tellapur, Nallagandla, Gopanpally, Gachibowli, Financial District, Manikonda, Narsingi</p><span class="zone-tag">₹60 delivery · Free above ₹399</span></div>
+    <div class="zone-card zb reveal"><span class="zone-icon">🛵</span><div class="zone-title">10–20 km</div><p class="zone-desc">Madhapur, Kondapur, Banjara Hills, Jubilee Hills, Kukatpally, Miyapur, Hitech City, Begumpet</p><span class="zone-tag">₹120 delivery · Free above ₹699</span></div>
+    <div class="zone-card zc reveal"><span class="zone-icon">📍</span><div class="zone-title">Beyond 20 km</div><p class="zone-desc">Secunderabad, Old City, LB Nagar — not serviceable at this time. Check back soon!</p><span class="zone-tag">Not yet serviceable</span></div>
+  </div>
+</section>
+
+<section style="background:var(--mist);">
+  <div class="ch"><span class="s-tag">Happy Customers</span><h2 class="s-title">Cookie lovers speak</h2><p class="s-sub">Real reviews from people who craved and conquered</p></div>
+  <div class="testi-grid">
+    <div class="testi-card reveal"><div class="stars">★★★★★</div><p class="testi-text">That dipping sauce is absolutely unreal. I went back for seconds and I'm not even a sweets person. The Nutella stuffed cookie is DANGEROUS. Delivered to Gachibowli perfectly!</p><div class="testi-author"><div class="testi-av">🧑</div><div><div class="testi-name" >Sampath A.</div><div class="testi-loc">Gachibowli, Hyderabad</div></div></div></div>
+    <div class="testi-card reveal"><div class="stars">★★★★★</div><p class="testi-text">Ordered the combo box for my team — gone in 5 minutes flat. The packaging looks premium for a home bakery. Everyone asked where it was from. Will reorder for sure!</p><div class="testi-author"><div class="testi-av">👩</div><div><div class="testi-name" >Anisha K.</div><div class="testi-loc">Madhapur, Hyderabad</div></div></div></div>
+    <div class="testi-card reveal"><div class="stars">★★★★★</div><p class="testi-text">Ordered the mini cookies with dip and they were amazing! Super soft and gooey, not overly sweet. Loved that everything tasted fresh. Packaging was neat too. Will definitely order again.</p><div class="testi-author"><div class="testi-av">👩‍🦱</div><div><div class="testi-name" >Yudhira K.</div><div class="testi-loc">Kondapur, Hyderabad</div></div></div></div>
+  </div>
+</section>
+
+<div class="trust-bar">
+  <div class="tb-item">🏛️ FSSAI: 23626028002311</div>
+  <div class="tb-item">🧑‍🍳 Made Fresh on Every Order</div>
+  <div class="tb-item">📦 Sealed Kraft Packaging</div>
+  <div class="tb-item">🌿 Premium Ingredients</div>
+  <div class="tb-item">💯 100% Homemade</div>
+</div>
+
+<section style="background:var(--choc);text-align:center;padding:76px 5vw;">
+  <span class="s-tag" style="color:var(--gold);">Ready to Crave?</span>
+  <h2 class="s-title" style="color:var(--cream);margin:0 auto 14px;">Order tonight,<br>enjoy tomorrow.</h2>
+  <p style="color:rgba(251,245,233,.62);font-size:.92rem;max-width:440px;margin:0 auto 32px;line-height:1.76;" class="">Pre-orders close at 9 PM daily. We bake fresh every morning. No freezing. Ever.</p>
+  <button class="btn btn-gold" onclick="goOrder()" >🍪 Place My Pre-Order</button>
+</section>
+
+</div><!-- /home -->
+
+<!-- ═══════ MENU ═══════ -->
+<div class="page" id="page-menu">
+<div class="menu-hero">
+  <span class="s-tag">The Full Menu</span>
+  <h2 class="s-title">Every bite, a moment.</h2>
+  <p class="s-sub">Made fresh on order · Pre-order before 9 PM · Delivered next day</p>
+</div>
+<div class="menu-tabs">
+  <button class="tab-btn" onclick="swTab('classic',this)">🍪 Classic</button>
+  <button class="tab-btn" onclick="swTab('stuffed',this)" >🍫 Stuffed</button>
+  <button class="tab-btn" onclick="swTab('brownies',this)" >🟫 Brownies</button>
+  <button class="tab-btn" onclick="swTab('combos',this)" >🎁 Combos</button>
+</div>
+<div class="menu-body">
+
+  <div class="msec" id="tab-classic">
+    <div class="msec-title">Signature Mini Cookies + Dip</div>
+    <p class="msec-sub">Our original. Warm, chewy, and made for dipping.</p>
+    <div class="items-grid">
+      <div class="item-card" onclick="openItem('Classic Choco Chip + Milk Choc Dip (12 mini) — ₹249')">
+        <div class="item-img"><img src="https://black-fernandina-74.tiiny.site/images/1778324060123-image-fecdbcbfaaeb.png" alt="Classic" class=""><span class="itag itag-gold">⭐ Bestseller</span></div>
+        <div class="item-body"><div class="item-name">Classic Choco Chip + Milk Choc Dip</div><p class="item-desc">12 warm mini cookies loaded with choco chips + silky milk chocolate dipping sauce.</p><div class="item-footer"><span class="item-price">₹249</span><button class="oibtn">Order →</button></div></div>
+      </div>
+      <div class="item-card" onclick="openItem('Double Chocolate + Dark Choc Dip (12 mini) — ₹279')">
+        <div class="item-img"><img src="https://black-fernandina-74.tiiny.site/images/1778324050625-image-eaefcaaaafdbab.png" alt="Double Choc" class=""><span class="itag itag-dark">Dark &amp; Rich</span></div>
+        <div class="item-body"><div class="item-name">Double Chocolate + Dark Choc Dip</div><p class="item-desc">12 double chocolate mini cookies with dark chocolate dipping sauce. For serious choc lovers.</p><div class="item-footer"><span class="item-price">₹279</span><button class="oibtn">Order →</button></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="msec" id="tab-stuffed">
+    <div class="msec-title">Loaded Stuffed Cookies</div>
+    <p class="msec-sub" >Giant cookies, molten surprise inside. Pull apart and watch the magic.</p>
+    <div class="items-grid">
+      <div class="item-card" onclick="openItem('Nutella Stuffed Cookie (single) — ₹99')">
+        <div class="item-img"><img src="https://black-fernandina-74.tiiny.site/images/1778324075340-image-feeeedcbabeaeafd.png" alt="Nutella" class=""><span class="itag itag-dark">🔥 Most Loved</span></div>
+        <div class="item-body"><div class="item-name">Nutella Stuffed Cookie</div><p class="item-desc">Giant cookie with a warm molten Nutella centre. The pull-apart moment is unreal.</p><div class="item-footer"><span class="item-price">₹99 each</span><button class="oibtn">Order →</button></div></div>
+      </div>
+      <div class="item-card" onclick="openItem('Biscoff Stuffed Cookie (single) — ₹119')">
+        <div class="item-img"><img src="https://black-fernandina-74.tiiny.site/images/1778324113676-image-dbcbefbbfdaddbdf.png" alt="Biscoff" class=""><span class="itag itag-dark">✨ Trending</span></div>
+        <div class="item-body"><div class="item-name">Biscoff Stuffed Cookie</div><p class="item-desc">Caramelised Biscoff filling inside a warm choco chip cookie. Sweet, spiced, addictive.</p><div class="item-footer"><span class="item-price">₹119 each</span><button class="oibtn">Order →</button></div></div>
+      </div>
+      <div class="item-card" onclick="openItem('Box of 3 Stuffed Cookies (mix Nutella + Biscoff) — ₹299')">
+        <div class="item-img"><img src="https://black-fernandina-74.tiiny.site/images/1778324268250-image-edeaababadede.png" alt="Box of 3" class=""><span class="itag itag-gold">Best Value</span></div>
+        <div class="item-body"><div class="item-name">Box of 3 Stuffed Cookies</div><p class="item-desc">Any 3 stuffed cookies — mix Nutella and Biscoff. Great for gifting or treating yourself.</p><div class="item-footer"><span class="item-price">₹299</span><button class="oibtn">Order →</button></div></div>
+      </div>
+      <div class="item-card" onclick="openItem('Box of 6 Stuffed Cookies (mix) — ₹549')">
+        <div class="item-img"><img src="https://black-fernandina-74.tiiny.site/images/1778324363521-image-daabacbdffbbe.png" alt="Box of 6" class=""><span class="itag itag-dark">🎁 Gift Ready</span></div>
+        <div class="item-body"><div class="item-name">Box of 6 Stuffed Cookies</div><p class="item-desc">Six stuffed cookies in a gift-worthy kraft box. Mix of Nutella + Biscoff. The best present.</p><div class="item-footer"><span class="item-price">₹549</span><button class="oibtn">Order →</button></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="msec" id="tab-brownies">
+    <div class="msec-title">Mini Brownies + Dip</div>
+    <p class="msec-sub">Dense, fudgy, deeply chocolatey. Pure indulgence.</p>
+    <div class="items-grid">
+      <div class="item-card" onclick="openItem('Mini Brownies + Choc Dip (12 pcs) — ₹229')">
+        <div class="item-img"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&amp;q=80" alt="Brownies"><span class="itag itag-dark">Classic</span></div>
+        <div class="item-body"><div class="item-name">Classic Brownies + Chocolate Dip</div><p class="item-desc">12 fudgy mini brownies with a chocolate dipping sauce. Rich, dense, and perfectly chewy.</p><div class="item-footer"><span class="item-price">₹229</span><button class="oibtn">Order →</button></div></div>
+      </div>
+      <div class="item-card" onclick="openItem('Large Brownie Box + 2 Dips (18 pcs) — ₹319')">
+        <div class="item-img"><img src="https://images.unsplash.com/photo-1564355808539-22fda35bed7e?w=600&amp;q=80" alt="Large Brownies" class=""><span class="itag itag-gold">Family Size</span></div>
+        <div class="item-body"><div class="item-name">Large Brownie Box + 2 Dips</div><p class="item-desc">18 mini brownies with two cups of dipping sauce. Perfect for families and movie nights.</p><div class="item-footer"><span class="item-price">₹319</span><button class="oibtn">Order →</button></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="msec" id="tab-combos">
+    <div class="msec-title">Combo Boxes</div>
+    <p class="msec-sub">More variety, better value. For families, friends &amp; offices.</p>
+    <div class="items-grid">
+      <div class="item-card" onclick="openItem('Combo Box — Mini Cookies + Brownies + Dip — ₹349')">
+        <div class="item-img"><img src="https://black-fernandina-74.tiiny.site/images/1778324413170-image-bccedacedb.png" alt="Combo" class=""><span class="itag itag-gold">⭐ Bestseller</span></div>
+        <div class="item-body"><div class="item-name">Combo Box</div><p class="item-desc">Mini cookies + fudgy brownies + 2 dipping sauces in one box. The crowd pleaser.</p><div class="item-footer"><span class="item-price">₹349</span><button class="oibtn">Order →</button></div></div>
+      </div>
+      <div class="item-card" onclick="openItem('Mega Combo (18 cookies + 12 brownies + 2 dips) — ₹549')">
+        <div class="item-img"><img src="https://black-fernandina-74.tiiny.site/images/1778324477162-image-fdefbbcfb.png" alt="Mega Combo" class=""><span class="itag itag-dark">Party Size</span></div>
+        <div class="item-body"><div class="item-name">Mega Combo Box</div><p class="item-desc">18 cookies + 12 brownies + 2 big dipping sauces. Feeds 4–6 people. Best value on the menu.</p><div class="item-footer"><span class="item-price">₹549</span><button class="oibtn">Order →</button></div></div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div><!-- /menu -->
+
+<!-- ═══════ ABOUT ═══════ -->
+<div class="page active" id="page-about">
+<div class="about-grid">
+  <div class="about-img-wrap">
+    <div class="about-img"><img src="https://black-fernandina-74.tiiny.site/images/1778324634143-image-cbeebafebed.png" alt="Baking cookies fresh" class=""></div>
+    <div class="about-float"><div class="af-n">500+</div><div class="af-l">Happy cookie lovers</div></div>
+  </div>
+  <div>
+    <span class="s-tag">Our Story</span>
+    <h2 class="s-title" style="margin-bottom:18px;">Born from a love of baking &amp; a jar of chocolate</h2>
+    <p class="about-p ">CraveJar started in a home kitchen in Hyderabad, born from one simple idea — cookies are better when you dip them in chocolate. Not store-bought, not commercial. Real, warm, handcrafted cookies made with premium ingredients, packed with love and delivered fresh.</p>
+    <p class="about-p">Every box is baked on the morning of your delivery. We never pre-bake. We never freeze. That's the CraveJar promise — if it's not fresh, it doesn't go out.</p>
+    <p class="about-p">We're FSSAI certified, proudly based in Osman Nagar, Tellapur, Hyderabad. We're growing slowly, deliberately, and deliciously.</p>
+    <div style="margin-top:24px;"><button class="btn btn-dark" onclick="showPage('contact')">Order Now →</button></div>
+  </div>
+</div>
+<section style="background:var(--mist);">
+  <div class="ch"><span class="s-tag">What We Stand For</span><h2 class="s-title">The CraveJar way</h2></div>
+  <div class="vals-grid" style="margin-top:44px;">
+    <div class="val-card reveal"><span class="val-icon">🧑‍🍳</span><div class="val-title">Always Handmade</div><p class="val-desc">Every cookie and brownie made by hand in small batches. Never mass-produced.</p></div>
+    <div class="val-card reveal"><span class="val-icon">🌿</span><div class="val-title">Real Ingredients</div><p class="val-desc">No artificial flavours. Premium butter, real chocolate, natural sweeteners.</p></div>
+    <div class="val-card reveal"><span class="val-icon">📦</span><div class="val-title">Fresh Every Time</div><p class="val-desc">Baked on the morning of delivery. Never a day old when it reaches you.</p></div>
+    <div class="val-card reveal"><span class="val-icon">✅</span><div class="val-title">FSSAI Certified</div><p class="val-desc">Fully registered food business. FSSAI No: 23626028002311. You eat safe.</p></div>
+  </div>
+</section>
+<div class="trust-bar">
+  <div class="tb-item">🏛️ FSSAI: 23626028002311</div>
+  <div class="tb-item">📍 Osman Nagar, Tellapur, Hyderabad</div>
+  <div class="tb-item">📸 @thecravejar</div>
+  <div class="tb-item">📞 +91 99591 38279</div>
+</div>
+</div><!-- /about -->
+
+<!-- ═══════ CONTACT/ORDER ═══════ -->
+<div class="page" id="page-contact">
+<div class="contact-grid" id="orderForm">
+  <div>
+    <span class="s-tag">Place Your Order</span>
+    <h2 class="s-title" style="margin-bottom:12px;">Let's get your cravings sorted</h2>
+    <p class="s-sub">Fill the form — we'll confirm on WhatsApp within 15 minutes and send a UPI payment link. Orders before 9 PM delivered next day.</p>
+    <div class="clinks">
+      <a href="https://wa.me/919959138279" class="clink" target="_blank">
+        <div class="clink-icon" style="background:#25d36622;">💬</div>
+        <div><div class="clink-label">WhatsApp</div><div class="clink-val">+91 99591 38279</div></div>
+      </a>
+      <a href="https://instagram.com/thecravejar" class="clink" target="_blank">
+        <div class="clink-icon" style="background:#e1306222;">📸</div>
+        <div><div class="clink-label">Instagram</div><div class="clink-val">@thecravejar</div></div>
+      </a>
+      <a href="tel:+919959138279" class="clink">
+        <div class="clink-icon" style="background:var(--sand);">📞</div>
+        <div><div class="clink-label">Call / SMS</div><div class="clink-val">+91 99591 38279</div></div>
+      </a>
+    </div>
+    <div class="fssai-box">
+      <span style="font-size:1.4rem;">🏛️</span>
+      <div><div class="fssai-label">FSSAI Registration</div><div class="fssai-num">23626028002311</div></div>
+    </div>
+    <div class="dzone-info">
+      <h4>📍 Delivery Zones &amp; Charges</h4>
+      <p>
+        Within 10 km → ₹60 · Free above ₹399<br>
+        10–20 km → ₹120 · Free above ₹699<br>
+        Beyond 20 km → Not serviceable yet<br>
+        <strong style="color:var(--caramel);">⏰ Order by 9 PM → Delivered Next Day</strong>
+      </p>
+    </div>
+  </div>
+
+  <div class="order-form">
+    <div class="form-title">Pre-Order Form</div>
+    <p class="form-sub">We'll WhatsApp you within 15 mins to confirm &amp; share UPI payment details.</p>
+    <div class="pre-note"><strong>⏰ Pre-orders only.</strong> Orders before 9 PM are baked fresh and delivered the <strong>next day.</strong> We never freeze.</div>
+    <div class="f-grid2">
+      <div class="f-row"><label class="f-label">Your Name *</label><input class="f-input" id="fn" type="text" placeholder="Your name"></div>
+      <div class="f-row"><label class="f-label">WhatsApp Number *</label><input class="f-input" id="fph" type="tel" placeholder="98765 43210"></div>
+    </div>
+    <div class="f-row">
+      <label class="f-label">Select Item *</label>
+      <select class="f-select" id="fitm">
+        <option value="">Choose your craving...</option>
+        <optgroup label="🍪 Classic Cookies">
+          <option>Classic Choco Chip + Milk Choc Dip (12 mini) — ₹249</option>
+          <option>Double Chocolate + Dark Choc Dip (12 mini) — ₹279</option>
+        </optgroup>
+        <optgroup label="🍫 Stuffed Cookies">
+          <option>Nutella Stuffed Cookie (single) — ₹99</option>
+          <option>Biscoff Stuffed Cookie (single) — ₹119</option>
+          <option>Box of 3 Stuffed Cookies (mix) — ₹299</option>
+          <option>Box of 6 Stuffed Cookies (mix) — ₹549</option>
+        </optgroup>
+        <optgroup label="🟫 Brownies">
+          <option>Mini Brownies + Choc Dip (12 pcs) — ₹229</option>
+          <option>Large Brownie Box + 2 Dips (18 pcs) — ₹319</option>
+        </optgroup>
+        <optgroup label="🎁 Combos">
+          <option>Combo Box — Cookies + Brownies + Dip — ₹349</option>
+          <option>Mega Combo Box — ₹549</option>
+        </optgroup>
+        <option>Multiple items — I'll describe in notes</option>
+      </select>
+    </div>
+    <div class="f-row">
+      <label class="f-label">Quantity</label>
+      <select class="f-select" id="fqty">
+        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>Multiple — see notes</option>
+      </select>
+    </div>
+    <div class="f-row">
+      <label class="f-label">Delivery Address *</label>
+      <textarea class="f-textarea" id="fadd" placeholder="Flat / Building, Street, Area, Hyderabad — be specific for accurate delivery charge"></textarea>
+    </div>
+    <div class="f-row">
+      <label class="f-label">Special Instructions (optional)</label>
+      <input class="f-input" id="fnote" type="text" placeholder="Birthday note, extra sauce, no nuts, dietary needs...">
+    </div>
+    <button class="submit-btn" onclick="placeOrder()">🛒 Place Pre-Order via WhatsApp</button>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="f-brand-name">CraveJar</div>
+      <p class="f-tagline">Handcrafted cookies, brownies &amp; dipping sauces. Made fresh, delivered next day across Hyderabad.</p>
+      <div class="f-socials">
+        <a href="https://instagram.com/thecravejar" class="f-soc" target="_blank">📸</a>
+        <a href="https://wa.me/919959138279" class="f-soc" target="_blank">💬</a>
+        <a href="tel:+919959138279" class="f-soc">📞</a>
+      </div>
+    </div>
+    <div class="f-col"><h4>Menu</h4><ul>
+      <li><a onclick="showPage('menu');swTab('classic',null)">Classic Cookies</a></li>
+      <li><a onclick="showPage('menu');swTab('stuffed',null)">Stuffed Cookies</a></li>
+      <li><a onclick="showPage('menu');swTab('brownies',null)">Brownies</a></li>
+      <li><a onclick="showPage('menu');swTab('combos',null)">Combos</a></li>
+    </ul></div>
+    <div class="f-col"><h4 class="">Info</h4><ul>
+      <li><a onclick="showPage('about')">Our Story</a></li>
+      <li><a onclick="showPage('home')">Delivery Zones</a></li>
+      <li><a onclick="showPage('contact')">Order Now</a></li>
+    </ul></div>
+    <div class="f-col"><h4>Contact</h4><ul>
+      <li><a href="https://wa.me/919959138279">WhatsApp</a></li>
+      <li><a href="tel:+919959138279">+91 99591 38279</a></li>
+      <li><a href="https://instagram.com/thecravejar">@thecravejar</a></li>
+      <li><a>Osman Nagar, Tellapur, Hyd</a></li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 CraveJar. FSSAI: 23626028002311</span>
+    <span>Made with 🍫 in Hyderabad</span>
+  </div>
+</footer>
+
+</div><!-- /contact -->
+
+<!-- WA FLOAT -->
+<a href="https://wa.me/919959138279?text=Hi%20CraveJar!%20I%20want%20to%20place%20an%20order%20🍪" class="wa-float" target="_blank">💬</a>
+
+<!-- CONFIRM MODAL -->
+<div class="modal-bg" id="mConfirm">
+  <div class="modal">
+    <span class="modal-emoji">🎉</span>
+    <h3>Order Sent!</h3>
+    <p>Your pre-order has been sent to CraveJar on WhatsApp! We'll confirm within 15 minutes and share a UPI payment link. Baked fresh, delivered tomorrow. 🍪</p>
+    <div class="modal-btns">
+      <button class="mclose" onclick="closeM('mConfirm')">Close</button>
+      <a href="https://wa.me/919959138279" target="_blank" class="btn btn-dark" style="font-size:.8rem;padding:11px 22px;">Open WhatsApp 💬</a>
+    </div>
+  </div>
+</div>
+
+<!-- ITEM MODAL -->
+<div class="modal-bg" id="mItem">
+  <div class="modal">
+    <span class="modal-emoji">🍪</span>
+    <h3>Great choice!</h3>
+    <p id="mItemText">You're ordering: "Gift Jar Box (Assorted cookies + brownies + 2 sauces) — ₹599". We'll confirm on WhatsApp within 15 minutes!</p>
+    <div class="modal-btns">
+      <button class="mclose" onclick="closeM('mItem')" >Back</button>
+      <a id="mItemLink" href="https://wa.me/919959138279?text=%F0%9F%8D%AA%20*CraveJar%20Pre-Order*%0A%0AHi!%20I'd%20like%20to%20order%3A%0A*Gift%20Jar%20Box%20(Assorted%20cookies%20%2B%20brownies%20%2B%202%20sauces)%20%E2%80%94%20%E2%82%B9599*%0A%0APlease%20confirm%20and%20share%20payment%20details.%20Thank%20you!" target="_blank" class="btn btn-dark" style="font-size:.8rem;padding:11px 22px;">Order on WhatsApp 💬</a>
+    </div>
+  </div>
+</div>
+
+<script>
+function showPage(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('page-'+id).classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+  document.getElementById('navLinks').classList.remove('open');
+  setTimeout(initReveal,120);
+}
+function goOrder(){showPage('contact');setTimeout(()=>document.getElementById('orderForm').scrollIntoView({behavior:'smooth'}),220);}
+function toggleMenu(){document.getElementById('navLinks').classList.toggle('open');}
+function swTab(id,btn){
+  document.querySelectorAll('.msec').forEach(s=>s.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.add('active');
+  if(btn){
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('act','act-g'));
+    btn.classList.add(id==='healthy'?'act-g':'act');
+  }
+}
+function openItem(item){
+  const msg=encodeURIComponent('🍪 *CraveJar Pre-Order*\n\nHi! I\'d like to order:\n*'+item+'*\n\nPlease confirm and share payment details. Thank you!');
+  document.getElementById('mItemText').textContent='You\'re ordering: "'+item+'". We\'ll confirm on WhatsApp within 15 minutes!';
+  document.getElementById('mItemLink').href='https://wa.me/919959138279?text='+msg;
+  document.getElementById('mItem').classList.add('open');
+}
+function placeOrder(){
+  const n=document.getElementById('fn').value.trim();
+  const p=document.getElementById('fph').value.trim();
+  const it=document.getElementById('fitm').value;
+  const q=document.getElementById('fqty').value;
+  const a=document.getElementById('fadd').value.trim();
+  const nt=document.getElementById('fnote').value.trim();
+  if(!n||!p||!it||!a){alert('Please fill in your name, phone, item and delivery address!');return;}
+  const msg=encodeURIComponent(
+    '🍪 *New CraveJar Pre-Order!*\n\n'+
+    '👤 *Name:* '+n+'\n'+
+    '📞 *Phone:* '+p+'\n'+
+    '🛒 *Item:* '+it+'\n'+
+    '🔢 *Qty:* '+q+'\n'+
+    '📍 *Address:* '+a+'\n'+
+    (nt?'📝 *Notes:* '+nt:'')
+  );
+  window.open('https://wa.me/919959138279?text='+msg,'_blank');
+  document.getElementById('mConfirm').classList.add('open');
+}
+function closeM(id){document.getElementById(id).classList.remove('open');}
+document.querySelectorAll('.modal-bg').forEach(bg=>{bg.addEventListener('click',function(e){if(e.target===this)this.classList.remove('open');});});
+window.addEventListener('scroll',()=>{document.getElementById('nav').classList.toggle('scrolled',window.scrollY>24);});
+function initReveal(){
+  const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});},{threshold:.1});
+  document.querySelectorAll('.reveal').forEach(el=>{el.classList.remove('visible');obs.observe(el);});
+}
+initReveal();
+</script>
+
+
+          
+        <div style="height: 55px !important;"></div></body></html>
